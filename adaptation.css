@@ -1,0 +1,26 @@
+@media (max-width: 1000px) {
+    .contacts {
+        max-width: 100%;
+    }
+}
+@media (max-width: 700px) {
+    .contacts {
+        font-size: 12px;
+    }
+    .contacts__list-item-contact-info {
+        font-size: 12px;
+    }
+    .contacts__list-item-edit-button-icon {
+        --wh: 16px;
+    }
+}
+@media (max-width: 1200px) {
+    .modal-add-contact {
+        max-width: 50%;
+    }
+}
+@media (max-width: 560px) {
+    .modal-add-contact {
+        max-width: 75%;
+    }
+}
