@@ -13,8 +13,8 @@ export const drawContact = ({email, phone, name, surname, id}) => {
         <p data-phone class="contacts__list-item-contact-info">${phone}</p>
         <p data-email class="contacts__list-item-contact-info">${email}</p>
         <div class="contacts__list-item-edit-buttons-container">
-           <button data-contact-id="${id}" data-button-func="edit" class="contacts__list-item-edit-button"><img class="contacts__list-item-edit-button-icon" src="./assets/icons/edit.png" alt="edit"></button>
-           <button data-contact-id="${id}" data-button-func="delete" class="contacts__list-item-edit-button contacts__list-item-edit-button--delete-button"><img class="contacts__list-item-edit-button-icon" src="./assets/icons/delete.png" alt="delete"></button>
+           <button data-contact-id="${id}" data-button-func="edit" class="contacts__list-item-edit-button"><img class="contacts__list-item-edit-button-icon" src="edit.png" alt="edit"></button>
+           <button data-contact-id="${id}" data-button-func="delete" class="contacts__list-item-edit-button contacts__list-item-edit-button--delete-button"><img class="contacts__list-item-edit-button-icon" src="delete.png" alt="delete"></button>
         </div>
     `;
 
